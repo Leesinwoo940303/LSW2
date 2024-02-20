@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Infinite draggable webgl slider.</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<div class="slider | js-drag-area">
+  <div class="slider__inner | js-slider">
+    <div class="slide | js-slide">
+      <div class="slide__inner | js-slide__inner">
+         <img class="js-slide__img" src="ART.png" alt="" crossorigin="anonymous" draggable="false">
+      </div>
+    </div>
+    <div class="slide | js-slide" style="left: 120%;">
+      <div class="slide__inner | js-slide__inner">
+         <img class="js-slide__img" src="./01.png" alt="" crossorigin="anonymous" draggable="false">
+      </div>
+    </div>
+    <div class="slide | js-slide" style="left: 240%;">
+      <div class="slide__inner | js-slide__inner">
+         <img class="js-slide__img" src="./02.png" alt="" crossorigin="anonymous" draggable="false">
+      </div>
+    </div>
+    <div class="slide | js-slide" style="left: 360%;">
+      <div class="slide__inner | js-slide__inner">
+         <img class="js-slide__img" src="./3.png" alt="" crossorigin="anonymous" draggable="false">
+      </div>
+    </div>
+    <div class="slide | js-slide" style="left: 480%;">
+      <div class="slide__inner | js-slide__inner">
+         <img class="js-slide__img" src="./4.png" alt=""crossorigin="anonymous"  draggable="false">
+      </div>
+    </div>
+    <div class="slide | js-slide" style="left: 600%;">
+      <div class="slide__inner | js-slide__inner">
+         <img class="js-slide__img" src="./5.png" alt="" crossorigin="anonymous" draggable="false">
+      </div>
+    </div>
+    <div class="slide | js-slide" style="left: 720%;">
+      <div class="slide__inner | js-slide__inner">
+         <img class="js-slide__img" src="./05.png" alt="" crossorigin="anonymous" draggable="false">
+      </div>
+    </div>
+  
+    </div>
+  </div>
+</div>
+
+<div class="titles">
+  <div class="titles__title titles__title--proxy">Lorem ipsumsss</div>
+  <div class="titles__list | js-titles">
+    <div class="titles__title | js-title">ARTSY</div>
+    <div class="titles__title | js-title">
+      INDEX</div>
+    <div class="titles__title | js-title">INTRO</div>
+    <div class="titles__title | js-title">BUSINESS</div>
+    <div class="titles__title | js-title">
+      ANALYSIS</div>
+    <div class="titles__title | js-title">RESEARCH</div>
+    <div class="titles__title | js-title">
+      INFORMATION</div>
+    <div class="titles__title | js-title">
+      PROTOTYPE</div>
+  </div>
+</div>
+  
+<div class="progress">
+  <div class="progress__line | js-progress-line"></div>
+  <div class="progress__line | js-progress-line-2"></div>
+</div>
+<!-- partial -->
+  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
